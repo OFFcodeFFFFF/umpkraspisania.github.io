@@ -1,0 +1,13 @@
+{
+  "name": "college-schedule-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Скачивает xlsx с расписанием из Облака Mail.ru и сохраняет как JSON для сайта",
+  "scripts": {
+    "start": "node scrape.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
